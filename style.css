@@ -1,0 +1,40 @@
+h1 {
+	text-align: center;
+	padding: 23px;
+	background-color: rgb(182, 195, 219);
+	color: black;
+    font-family: 'Combo', cursive;
+   }
+
+.exercise{
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(229, 229, 132);
+    width: 300px;
+}
+
+.deck{
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: rgb(240, 240, 188);
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    /* align-self: flex-start; */
+    margin: 10px;
+}
+
+.bottom {
+    align-self: center;
+    margin-top: 30px;
+}
+
+body{
+    background-color:rgb(58, 134, 136);
+    /* background-color: rgb(56, 84, 137); */
+}
